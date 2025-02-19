@@ -20,5 +20,11 @@ public class InterpretDrawingFile {
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
 		
+		String whatShape = in.next();
+		int redColor = in.nextInt();
+		int greenColor = in.nextInt();
+		int blueColor = in.nextInt();
+		
+		if (whatShape = StdDraw.Rectangle )
 	}
 }
